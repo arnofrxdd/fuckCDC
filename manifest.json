@@ -1,0 +1,50 @@
+{
+    "manifest_version": 3,
+    "name": "fuckCDC",
+    "version": "1.0",
+    "description": "Because daily tests build character... and resentment",
+    "permissions": [
+        "activeTab",
+        "storage"
+    ],
+    "host_permissions": [
+        "https://cdc.vit.ac.in/*"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "https://cdc.vit.ac.in/*"
+            ],
+            "js": [
+                "content-script.js"
+            ],
+            "run_at": "document_start",
+            "all_frames": true
+        },
+        {
+            "matches": [
+                "https://cdc.vit.ac.in/*"
+            ],
+            "js": [
+                "automation.js"
+            ],
+            "run_at": "document_end"
+        }
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_title": "fuckCDC - View Exam Answers"
+    },
+    "web_accessible_resources": [
+        {
+            "resources": [
+                "page-script.js",
+                "decrypt-script.js",
+                "crypto-js.min.js"
+            ],
+            "matches": [
+                "https://cdc.vit.ac.in/*"
+            ]
+        }
+    ]
+}
