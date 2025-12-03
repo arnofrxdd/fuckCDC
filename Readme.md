@@ -1,52 +1,66 @@
-# fuckCDC 
+# CDCSolver
 
-**A browser extension that automatically answers MCQ and fill-in-the-blank questions on CDC tests because we have better things to do with our lives than 15 fucking tests at once.**
-
-[![⬇️ Download fuckCDC](https://img.shields.io/badge/Download-fuckCDC-blue?style=for-the-badge)](https://github.com/arnofrxdd/fuckCDC/archive/refs/tags/initial-release.zip)
-
-<div align="left">
-  
-<img src="https://github.com/arnofrxdd/fuckCDC/raw/stuff/fuckCDC.png" width="40%" height="40%">
-
-</div>
+A browser extension created during my college days to assist in solving CDC test questions using encryption and decryption techniques. It automatically helps with MCQ and fill-in-the-blank questions to reduce repetitive work during multiple test sessions.
 
 
 
-## What the Actual Fuck is This?
+---
 
-Some absolute legend at our college thinks it's perfectly reasonable to dump 15 CDC tests on us while we're trying to survive hostel/home life. This extension is my middle finger to that bullshit.
+## What Is This?
 
-## What It Does ✅
+CDCSolver is designed to streamline the process of answering CDC tests by automating certain types of questions.  
+The project was originally built as a learning experiment in **data extraction**, **encryption**, and **decryption mechanisms**.
 
-- Automatically answers MCQ questions
-- Fills in blank questions
-- Basically does everything except your coding questions (you're on your own for that, sorry)
+---
 
-## What It Doesn't Do ❌
+## Features ✅
 
-- Coding questions (you gotta copy/paste or write that shit yourself)
-- Make your professor less of a pain in the ass
-- Fix the education system (we wish)
-- **Work on tests with dev tools detection** (those smart-ass systems will catch this extension, so do those tests manually like a peasant
+- Automatically answers MCQ questions  
+- Fills in blank-type questions  
+- Displays answer keys for supported formats  
+- Simple and easy-to-use interface  
+
+---
+
+## Limitations ❌
+
+- Does **not** solve coding questions  
+- Does not work on test platforms with **developer tools detection**  
+- Cannot bypass academic integrity policies  
+
+---
 
 ## Installation
 
-1. **Download this extension**
-2. **Go to Chrome or any fucking browser you use** (except Firefox)
-3. **Load unpacked and select the folder**
-4. **Cool, now my fucking extension is installed on your shitty PC**
+1. Download the project files  
+2. Open **Chrome** or any Chromium-based browser  
+3. Go to `chrome://extensions/`  
+4. Enable **Developer Mode**  
+5. Click **Load Unpacked**  
+6. Select the extension folder  
 
-## How to Use? It's So Easy Bro
+---
 
-1. **Go to a test**
-2. **The extension will automatically show all answer keys and coding question answers**
-3. **Either mark all answers by yourself like an idiot** 
-4. **OR use the "i cant take this anymore" button to automate everything (each section)**
+## How to Use
+
+1. Open a CDC test  
+2. CDCSolver automatically detects and displays answer keys  
+3. You may:
+   - Select answers manually  
+   - Or use the **Auto-Solve** button to fill in supported sections automatically  
+
+---
 
 ## Disclaimer ⚠️
 
-Look, I'm not responsible if you get caught using this. Use at your own risk. Don't be stupid about it. We're all just trying to survive this academic nightmare together.
+This extension was created solely for **educational and experimental purposes**, focusing on automation and cryptographic techniques.  
+Use responsibly and at your own risk. Always follow your institution’s academic guidelines.
+
+---
 
 ## Contributing
 
-Feel free to fork this and make it better. Or don't. I don't give a fuck. It's open source do whatever tf you want with it.
+You are welcome to fork the repository, modify it, or improve it as you like.  
+The project is open source, so feel free to build upon it.
+
+---
